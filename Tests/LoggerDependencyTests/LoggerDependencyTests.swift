@@ -1,5 +1,4 @@
 #if canImport(OSLog)
-  import BundleDependency
   import Dependencies
   import DependenciesAdditionsBasics
   import LoggerDependency
