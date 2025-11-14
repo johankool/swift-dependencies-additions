@@ -37,6 +37,8 @@ let package = Package(
   ],
   products: [
     .library(name: "DependenciesAdditions", targets: ["DependenciesAdditions"]),
+    .library(name: "LoggerDependency", targets: ["LoggerDependency"]),
+    .library(name: "UserDefaultsDependency", targets: ["UserDefaultsDependency"]),
     .library(name: "_AppStorageDependency", targets: ["_AppStorageDependency"]),
     .library(name: "_CoreDataDependency", targets: ["_CoreDataDependency"]),
     .library(name: "_NotificationDependency", targets: ["_NotificationDependency"]),
